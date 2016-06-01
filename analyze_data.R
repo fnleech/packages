@@ -1,4 +1,5 @@
 ## top 20 packages
+## hi
 tail(sort(table(downloads$package)), 20)
 ## create a data table of packages and download numbers
 package_downloads<-as.data.frame(table(downloads$package))
